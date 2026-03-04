@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- A05: No CSP header, no X-Frame-Options, no security headers -->
+    <!-- A05: No HTTPS enforcement -->
+    <title>VulnShop 🛒</title>
+    <!-- Inline favicon prevents the dev server from proxying /favicon.ico
+         when the backend is not running (avoids ECONNREFUSED errors). -->
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='100%25' height='100%25' fill='%23ffcc00'/%3E%3Ctext x='50%25' y='55%25' font-size='18' text-anchor='middle' fill='%23000' font-family='Arial'%3E%F0%9F%8D%92%3C/text%3E%3C/svg%3E">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
